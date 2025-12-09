@@ -13,4 +13,8 @@ the index.js file
 resources:
 - https://www.w3schools.com/js/js_comparisons.asp
 
+Notes:
+- `priceCheck(price)` returns `'match'` when `price == 1.50` (loose equality).
+- `strictPriceCheck(price)` returns `'match'` only when `price === 1.50` (strict equality).
+
 Copyright &copy; 2023 Knight Moves. All Rights Reserved.
